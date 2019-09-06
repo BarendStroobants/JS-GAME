@@ -1,1 +1,1 @@
-# JS-GAME
+https://barendstroobants.github.io/JS-GAME/index.html
