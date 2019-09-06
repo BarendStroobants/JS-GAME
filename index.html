@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Rock Paper and Scissors</title>
+</head>
+<body>
+
+<header id="headerRockPaperScissors">
+    <h1>Rock Paper Scissors</h1>
+</header>
+
+<section id="midSection">
+
+    <audio id="pinkPantherSound" src="./assets/pinkPanther.m4a" autoplay="autoplay" loop="loop"></audio>
+
+    <section id="scoreBoardLeft">
+
+        <header id="headerPlayerOne">
+            <h2>Player</h2>
+        </header>
+
+        <div>
+            <p id="scorePlayerOne">0</p>
+        </div>
+
+    </section>
+
+    <section id="playField">
+
+        <section id="playFieldTop">
+
+            <div id="playerOneHeadline">
+                <h2 >Player</h2>
+            </div>
+
+            <div id="fillingMidTop">
+                <button type="reset" id="resetButton">Next Match</button>
+            </div>
+
+            <div id="computerHeadline">
+                <h2>Computer</h2>
+            </div>
+
+        </section>
+
+        <section id="playFieldMid">
+
+            <div id="playerChoice">
+                <img id="imagePlayerChoice" src="./assets/hourglass.jpg" alt="playerChoice">
+            </div>
+
+            <div id="versusLight">
+                <img id="choiceVersusWinner" src="./assets/countdown.png" alt="middleImage">
+            </div>
+
+            <div id="compChoice">
+                <img id="imageComputerChoice" src="./assets/hourglass.jpg" alt="computerChoice">
+            </div>
+
+        </section>
+
+        <section id="playFieldBottom">
+
+            <div id="fillingBottomLeft"></div>
+
+            <div>
+                <p id="counter">5</p>
+            </div>
+
+            <div id="fillingBottomRight"></div>
+
+        </section>
+
+    </section>
+
+    <section id="scoreBoardRight">
+
+        <header id="headerComputer">
+            <h2>Computer</h2>
+        </header>
+
+        <div>
+            <p id="scoreComputer">0</p>
+        </div>
+
+    </section>
+
+</section>
+
+<footer id="footerButtons">
+
+    <section id="footerMiddle">
+
+        <section id="footerMiddleTop">
+            <div id="footerMiddleTopLeftFiller"></div>
+            <button class="rock" id="rockButton" type="submit" style="border: 0; background: transparent">
+                <img src="./assets/rock.png" alt="RockHand">
+                <audio id="theRockSound" src="./assets/theRockHasComeBack.m4a"></audio>
+            </button>
+            <div id="footerMiddleTopRightFiller"></div>
+        </section>
+
+        <section id="footerMiddlleCenter">
+            <div id="footerMiddleCenterLeftFiller"></div>
+            <div></div>
+            <div id="footerMiddleCenterMiddleFiller"></div>
+            <div></div>
+            <div id="footerMiddleCenterRightFiller"></div>
+        </section>
+
+        <section id="footerMiddleBottom">
+            <button class="paper" id="paperButton" type="submit" style="border: 0; background: transparent">
+                <img src="./assets/paper.png" alt="PaperHand">
+                <audio id="theWolfSound" src="./assets/thWolfOfWallStreet.m4a"></audio>
+            </button>
+            <div></div>
+            <button class="scissors" id="scissorsButton" type="submit" style="border: 0; background: transparent">
+                <img src="./assets/scissors.png" alt="ScissorsHand">
+                <audio id="edwardSound" src="./assets/EdwardScissorhands.m4a"></audio>
+            </button>
+        </section>
+
+    </section>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

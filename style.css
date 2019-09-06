@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./assets/smokeyBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#headerRockPaperScissors{
+    background: #191442;
+    border-radius: 10px;
+    color: #6C4A74;
+    max-width: 50%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+#midSection{
+    background: none;
+    justify-content: space-evenly;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+}
+
+#scoreBoardLeft{
+    background: #191442;
+    border-radius: 10px;
+    color: #6C4A74;
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#headerPlayerOne{
+    background: none;
+    color: #6C4A74;
+    width: 80%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#scorePlayerOne{
+    background: none;
+    color: #6C4A74;
+    font-size: 15em;
+    width: 80%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#playField{
+    background: #191442;
+    border-radius: 10px;
+    color: #6C4A74;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#playFieldTop{
+    background: none;
+    color: #6C4A74;
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+#playFieldMid{
+    background: none;
+    color: #6C4A74;
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+#imagePlayerChoice{
+    width: 100%;
+}
+#choiceVersusWinner{
+    width: 100%;
+}
+#imageComputerChoice{
+    width: 100%;
+}
+#playFieldBottom{
+    background: none;
+    color: #6C4A74;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+#counter{
+    font-size: 4em;
+}
+
+
+#scoreBoardRight {
+    background: #191442;
+    border-radius: 10px;
+    color: #6C4A74;
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#headerComputer{
+    background: none;
+    color: #6C4A74;
+    width: 80%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#scoreComputer{
+    background: none;
+    color: #6C4A74;
+    font-size: 15em;
+    width: 80%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footerButtons{
+    background: #191442;
+    border-radius: 10px;
+    max-width: 33%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+#footerMiddle{
+    background: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#footerMiddleTop{
+    background: none;
+    width: 90%;
+    height: 33%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+#footerMiddlleCenter{
+    background: none;
+    width: 90%;
+    height: 33%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+#footerMiddlleCenter div{
+    width: 19%;
+}
+#footerMiddlleCenter img{
+    width: 19%;
+}
+#footerMiddleBottom{
+    background: none;
+    width: 90%;
+    height: 33%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+button{
+    cursor: pointer;
+}
+#resetButton{
+    border-style: none;
+    border-radius: 3px;
+    background-color: #6C4A74;
+}
