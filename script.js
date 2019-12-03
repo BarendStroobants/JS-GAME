@@ -115,11 +115,6 @@ function playAudioTheWolf() {
 function pauseAudioTheWolf() {
     theWolfOfWallstreet.pause();
 }
-const pinkPantherSound = document.getElementById("pinkPantherSound");
-function playpinkPantherSound() {
-    pinkPantherSound.play();
-}
-playpinkPantherSound();
 
 document.getElementById("rockButton").addEventListener("click", function (clickTheRock) {
 
